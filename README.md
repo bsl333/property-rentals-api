@@ -1,6 +1,6 @@
 # property-rentals-api
-Server for [property-rentals-client](https://github.com/bsl333/property-rentals-client)
 - runs on port 5005; please be sure to have this port available
+Server for [property-rentals-client](https://github.com/bsl333/property-rentals-client)
 
 ### Project setup
 `npm i`
