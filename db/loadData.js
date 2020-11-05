@@ -4,7 +4,7 @@ const path = require('path');
 const data = [];
 
 const loadData = () => {
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     const dataPath = path.join(__dirname, 'rentals.csv');
     fs.createReadStream(dataPath)
       .pipe(csv())
